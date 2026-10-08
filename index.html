@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>College Football Selection Trials</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav {
+      background: #34495e;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 14px 20px;
+    }
+
+    nav a:hover {
+      background: #1abc9c;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+      background: white;
+    }
+
+    h2 {
+      color: #2c3e50;
+    }
+
+    .trials-info {
+      margin-bottom: 30px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    label {
+      margin: 10px 0 5px;
+    }
+
+    input, select, textarea {
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      background: #1abc9c;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #16a085;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #2c3e50;
+      color: white;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>College Football Selection Trials</h1>
+    <p>Show your skills and join our college football team!</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#schedule">Schedule</a>
+    <a href="#register">Register</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+
+    <section id="about" class="trials-info">
+      <h2>About the Trials</h2>
+      <p>Our annual football selection trials are open to all college students passionate about the sport. Showcase your talent and secure your spot on the team.</p>
+    </section>
+
+    <section id="schedule" class="trials-info">
+      <h2>Trial Schedule</h2>
+      <ul>
+        <li>Day 1 – Fitness and Skill Assessment</li>
+        <li>Day 2 – Practice Matches</li>
+        <li>Day 3 – Final Selection</li>
+      </ul>
+    </section>
+
+    <section id="register" class="trials-info">
+      <h2>Register Now</h2>
+      <form>
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="position">Preferred Position</label>
+        <select id="position" name="position">
+          <option value="quarterback">Quarterback</option>
+          <option value="running-back">Running Back</option>
+          <option value="wide-receiver">Wide Receiver</option>
+          <option value="linebacker">Linebacker</option>
+          <option value="defensive-back">Defensive Back</option>
+        </select>
+
+        <label for="experience">Previous Experience</label>
+        <textarea id="experience" name="experience" rows="4"></textarea>
+
+        <button type="submit">Submit Registration</button>
+      </form>
+    </section>
+
+    <section id="contact" class="trials-info">
+      <h2>Contact Us</h2>
+      <p>Email: footballtrials@college.edu</p>
+      <p>Phone: +1 (123) 456-7890</p>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>&copy; 2026 College Football Selection Trials. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+Do you want me to also add JavaScript validation and a success message for this registration form?
